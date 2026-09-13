@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Ibjas — Software Engineer</title>
+  <meta name="description" content="Mohamed Ibjas — Software Engineer at Saltside. Go, backend, and cloud, based in Dubai.">
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #21262d;
+      --text: #e6edf3;
+      --muted: #9198a1;
+      --accent: #58a6ff;
+      --accent-2: #00add8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 0 24px; }
+
+    header {
+      text-align: center;
+      padding: 96px 24px 64px;
+      background: radial-gradient(circle at 50% 0%, rgba(88,166,255,0.12), transparent 60%);
+    }
+    .avatar {
+      width: 120px; height: 120px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 44px; font-weight: 700; color: #fff;
+      margin: 0 auto 24px; box-shadow: 0 8px 32px rgba(0,173,216,0.25);
+    }
+    header h1 { font-size: 40px; letter-spacing: -0.02em; }
+    header .role { color: var(--accent); font-size: 19px; font-weight: 600; margin-top: 8px; }
+    header .loc { color: var(--muted); margin-top: 6px; font-size: 15px; }
+
+    .links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
+    .links a {
+      text-decoration: none; color: var(--text); background: var(--surface);
+      border: 1px solid var(--border); padding: 9px 18px; border-radius: 999px;
+      font-size: 14px; font-weight: 500; transition: all .18s ease;
+    }
+    .links a:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+
+    section { padding: 40px 0; border-top: 1px solid var(--border); }
+    section h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 20px; }
+    section p { color: var(--text); margin-bottom: 14px; }
+    a { color: var(--accent); }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 10px; }
+    .tag { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 7px 14px; font-size: 14px; }
+
+    .item { margin-bottom: 22px; }
+    .item h3 { font-size: 17px; }
+    .item .meta { color: var(--muted); font-size: 14px; margin: 2px 0 6px; }
+    .item p { color: var(--muted); }
+
+    ul.certs { list-style: none; display: grid; gap: 10px; }
+    ul.certs li { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; font-size: 15px; }
+    ul.certs li b { color: var(--text); }
+
+    footer { text-align: center; color: var(--muted); font-size: 14px; padding: 48px 24px; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="avatar">MI</div>
+      <h1>Mohamed Ibjas</h1>
+      <div class="role">Software Engineer @ Saltside</div>
+      <div class="loc">📍 Dubai, United Arab Emirates · Go · Backend · Cloud</div>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/mohamedibjas/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/mtmibjas" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:mohamed.ibjas@saltside.se">Email</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>About</h2>
+      <p>I'm a software engineer at <b>Saltside</b>, where I help build
+      <a href="https://ikman.lk" target="_blank" rel="noopener">ikman.lk</a> — Sri Lanka's largest
+      online marketplace, serving millions of monthly users. I care about clean, reliable backend
+      systems and enjoy working across the stack from Go services to cloud infrastructure.</p>
+      <p>Always learning — currently deep into Go, AI/ML, and cloud-native tooling, and working
+      with globally distributed teams.</p>
+    </section>
+
+    <section>
+      <h2>Tech &amp; Tools</h2>
+      <div class="tags">
+        <span class="tag">Go</span>
+        <span class="tag">SQL / PostgreSQL</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">Git</span>
+        <span class="tag">Linux</span>
+        <span class="tag">Cloud</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="item">
+        <h3>Software Engineer — Saltside</h3>
+        <div class="meta">Dubai, UAE</div>
+        <p>Building and maintaining services behind ikman.lk, one of South Asia's largest online marketplaces.</p>
+      </div>
+      <!-- Add earlier roles here -->
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <h3>University of Colombo School of Computing (UCSC)</h3>
+        <div class="meta">2015 – 2018</div>
+        <p>Active in the UCSC Firefox Club, IEEE Student Branch, and Computer Society of UCSC.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul class="certs">
+        <li><b>Go (Basic)</b> — HackerRank</li>
+        <li><b>ITIL® Foundation</b> — PeopleCert</li>
+        <li><b>Agile Scrum</b> — Udemy</li>
+        <li><b>Developing SQL Databases</b> — HackerRank</li>
+        <li><b>Go Brain Teasers</b> — Educative</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <div class="tags">
+        <span class="tag">Tamil — Professional</span>
+        <span class="tag">English — Professional</span>
+        <span class="tag">Sinhala — Working</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Let's connect — I'm always happy to talk engineering, Go, and building things that scale.<br>
+    © <span id="yr"></span> Mohamed Ibjas
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
