@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/profile.jpg" width="160" height="160" alt="Mohamed Ibjas" style="border-radius:50%">
-</p>
-
 <h1 align="center">Hi, I'm Mohamed Ibjas 👋</h1>
 
 <p align="center">
