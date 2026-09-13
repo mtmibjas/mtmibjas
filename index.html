@@ -30,10 +30,8 @@
     /* Header */
     header { text-align: center; padding: 88px 24px 56px;
       background: radial-gradient(circle at 50% -10%, rgba(0,173,216,0.14), transparent 55%); }
-    .avatar { width: 116px; height: 116px; border-radius: 50%;
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      display: flex; align-items: center; justify-content: center;
-      font-size: 42px; font-weight: 700; color: #fff; margin: 0 auto 22px;
+    .avatar { width: 132px; height: 132px; border-radius: 50%; object-fit: cover;
+      display: block; margin: 0 auto 22px; border: 3px solid var(--accent-2);
       box-shadow: 0 10px 40px rgba(0,173,216,0.28); }
     header h1 { font-size: 42px; letter-spacing: -0.02em; }
     header .role { color: var(--accent); font-size: 18px; font-weight: 600; margin-top: 10px; }
@@ -94,11 +92,11 @@
 <body>
   <header>
     <div class="wrap">
-      <div class="avatar">MI</div>
+      <img class="avatar" src="assets/profile.jpg" alt="Mohamed Ibjas">
       <h1>Mohamed Ibjas</h1>
       <div class="role">Senior Backend Engineer &amp; Tech Lead</div>
-      <div class="sub">Go · Distributed Systems · Kafka · AI-Powered Systems</div>
-      <div class="sub">📍 Colombo, Sri Lanka · Open to relocation</div>
+      <div class="sub">Go/Python · Distributed Systems · AI-Powered Systems</div>
+      <div class="sub">📍 Colombo, Sri Lanka</div>
       <div class="links">
         <a href="https://www.linkedin.com/in/mohamedibjas/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://github.com/mtmibjas" target="_blank" rel="noopener">GitHub</a>

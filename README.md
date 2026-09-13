@@ -1,9 +1,13 @@
+<p align="center">
+  <img src="assets/profile.jpg" width="160" height="160" alt="Mohamed Ibjas" style="border-radius:50%">
+</p>
+
 <h1 align="center">Hi, I'm Mohamed Ibjas 👋</h1>
 
 <p align="center">
   <b>Senior Backend Engineer & Tech Lead</b><br>
-  Go · Distributed Systems · Kafka · AI-Powered Systems<br>
-  📍 Colombo, Sri Lanka · Open to relocation
+  Go/Python · Distributed Systems · AI-Powered Systems<br>
+  📍 Colombo, Sri Lanka
 </p>
 
 <p align="center">
