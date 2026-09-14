@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Mohamed Ibjas 👋</h1>
 
 <p align="center">
-  <b>Senior Backend Engineer & Tech Lead</b><br>
+  <b>Senior Software Engineer · AI/LLM Engineer</b><br>
   Go/Python · Distributed Systems · AI-Powered Systems<br>
-  📍 Colombo, Sri Lanka
+  📍 Dubai, UAE · Working remotely
 </p>
 
 <p align="center">
@@ -16,13 +16,15 @@
 
 ### 🚀 About Me
 
-Backend engineer with **9+ years** building systems that perform under real load — high-throughput APIs, fault-tolerant distributed systems, and event-driven architectures in production. I've owned major technical decisions across multiple companies: architected and delivered an **AI-powered ad platform** at Sri Lanka's largest marketplace, designed a full backend from scratch as a **founding engineer**, and drove company-wide adoption of **gRPC** across a 15+ microservices platform.
+I'm one of the senior engineers behind **[ikman.lk](https://ikman.lk)** — Sri Lanka's largest online marketplace, with millions of monthly users across 345,000+ active listings — and I own the design and build of its **AI-powered ad-posting system**: the architecture and the Python backend that runs it, with a **Qdrant vector database** for semantic ad matching and **LLM-driven content generation**. Alongside it, I build the Go APIs serving listings, search, and user interactions, where latency and uptime move revenue directly.
 
-- 🔭 Currently a **Senior Software Engineer at Saltside Technologies**, building for [ikman.lk](https://ikman.lk) & [bikroy.com](https://bikroy.com)
-- 🧠 Moving deliberately into **AI systems engineering** — LLM workflows, RAG, and vector search in production
-- 🎓 Reading an **MSc in Artificial Intelligence** (SLIIT)
-- 💪 Deep hands-on depth in **Go, Python, Kafka, and cloud-native infrastructure**
-- 🗣️ Languages: Tamil & English (professional) · Sinhala (working)
+**Nine years of backend work** sits behind that — most of it in Go, most of it in systems that break in public if you get them wrong. What holds my interest now is **the engineering around the model** rather than the model itself: retrieval that stays fast, generation you can trust, and systems that behave the same on a bad day as a good one.
+
+- 🔭 **Senior Software Engineer at Saltside** (ikman.lk / bikroy.com)
+- 🧠 Focused on **LLMOps, RAG, vector search, and AI agents** in production
+- 🎓 Completing an **MSc in Artificial Intelligence**
+- 🏗️ Founding engineer, IoT, travel, and on-demand delivery — *the domains differ, the failure modes rhyme*
+- 🗣️ Tamil (professional) · English (professional) · Sinhala (working)
 
 ---
 
@@ -34,10 +36,12 @@ Backend engineer with **9+ years** building systems that perform under real load
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-**AI / ML**
-![Claude](https://img.shields.io/badge/LLMs%20(Claude)-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG%20%26%20Semantic%20Search-5A67D8?style=flat-square)
+**AI / LLM**
+![LLMs](https://img.shields.io/badge/LLMs%20(Claude)-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![LLMOps](https://img.shields.io/badge/LLMOps-5A67D8?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-4C51BF?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant%20/%20Vector%20Search-DC244C?style=flat-square&logo=qdrant&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-434190?style=flat-square)
 
 **Distributed Systems & Messaging**
 ![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
@@ -57,46 +61,46 @@ Backend engineer with **9+ years** building systems that perform under real load
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 
-> _Architecture: Clean Architecture · Event-Driven · CQRS · Saga Pattern · Fault-Tolerant Microservices · TDD_
+> _Architecture: Clean & Event-Driven · CQRS · Saga Pattern · Fault-Tolerant Microservices · TDD_
 
 ---
 
 ### 💼 Experience
 
-**Senior Software Engineer** — *Saltside Technologies* · Remote, Sri Lanka · *Feb 2025 – Present*
-Architected and built an **AI-powered ad-posting platform** for ikman.lk — a Python backend integrating Claude-powered LLM workflows, a Qdrant vector database, semantic search, and RAG, serving millions of monthly users across 345,000+ active listings. Built performance-critical Go APIs; data architecture across MongoDB, MySQL, and Qdrant.
+**Senior Software Engineer** — *Saltside* · Remote · *Apr 2025 – Present*
+Own the AI-powered ad-posting system at ikman.lk — led the architecture and built the Python backend end to end (Qdrant vector DB, semantic matching, LLM-driven content generation). Build and tune performance-critical Go APIs; set the platform's data strategy across MongoDB, MySQL, and Qdrant; drive technical direction through design sessions and code review.
 
-**Senior Go Engineer** — *Volindo Ltd* · Dubai, UAE (Remote / Freelance) · *Jul 2025 – Mar 2026*
-Go microservices on Clean Architecture with gRPC and Kafka; a distributed **Stripe payment system** using the Saga pattern for consistency under partial failure; TDD and integration-test coverage.
+**Back End Developer – Golang** — *Volindo* · Dubai, UAE (Remote) · *Jul 2025 – Mar 2026*
+Event-driven **travel infrastructure** in Go on Clean Architecture — gRPC services, Kafka async processing, a distributed **Stripe** payment flow using the Saga pattern for consistency under partial failure. Domain depth in booking flows, pricing, real-time availability, and seasonal high-concurrency traffic.
 
-**Senior Software Engineer – Go** — *Wiot360 Integrated IoT Solutions* · Abu Dhabi, UAE · *Jan 2023 – Jan 2025*
-Drove company-wide adoption of **gRPC** across 15+ microservices processing **500+ vehicles' telemetry per second**; designed a Kafka-based event platform; ran Kubernetes deployments with Docker, Jenkins CI/CD, and Prometheus/Grafana.
+**Senior Software Engineer – Golang** — *WIOT360* · Abu Dhabi, UAE · *Jan 2023 – Jan 2025*
+Two years on large-scale **distributed IoT systems** — Go web services and concurrency, SQL/NoSQL data modeling and performance tuning, Docker & Kubernetes, and CI/CD with TDD across a microservices architecture.
 
-**Senior Software Engineer & Team Lead (Founding Engineer)** — *Dishserve (Innovation Culinary)* · Jakarta, Indonesia · *Aug 2020 – Dec 2022*
-Founding engineer — defined the full architecture and stack (Go, MySQL, React, AWS). Scaled to **50,000+ orders/day**; integrated Grab, Gojek, and Shopify; secure payments via Xendit.
+**Senior Software Engineer & Team Lead (Founding Engineer)** — *DishServe* · Colombo → Jakarta · *Jul 2020 – Dec 2022*
+Founding engineer — built the product from scratch, from ideation to launch. Led the software team; drove the migration from monolith to microservices and PHP → Go; built Go microservices (goroutines, channels, Repository pattern, Go kit) on AWS with MySQL and API Gateway; established TDD/BDD and mentored the team.
 
-**Software Engineer → Associate Software Engineer** — *Yoho Lanka* · Colombo, Sri Lanka · *Jan 2017 – Jul 2020*
-Led engineering across Yoho Mart, Mate, Shuttle, and the **Yoho Life app** — Sri Lanka's 2nd most-used app during COVID-19. Built a Smart Pricing engine and a custom CRM.
+**Software Engineer** — *Yoho Bed* · Colombo, Sri Lanka · *Jul 2017 – Aug 2020*
+Owned the product development lifecycle across Yoho Mart, Mate, Shuttle, and the **Yoho Life** mobile app. Built with Laravel, MySQL, React/Redux, and the Repository pattern; delivered a **Smart Pricing** engine and integrated channel-manager, PayHere, and Textware.
 
 ---
 
 ### 🧪 Projects
 
-**[Sri Lanka SDG Tracker](https://data.sdg.lk)** — Designed and built from scratch (backend + frontend) to track Sri Lanka's progress on the UN Sustainable Development Goals. _PHP, Laravel, jQuery, AJAX, MySQL._
+**[Sri Lanka SDG Tracker](https://data.sdg.lk)** — Designed and built from scratch (backend + frontend) to track Sri Lanka's progress on the UN Sustainable Development Goals, aligned with global indicator frameworks. _PHP, Laravel, jQuery, AJAX, MySQL._
 
 ---
 
 ### 🎓 Education
 
-- **M.Sc. in Artificial Intelligence** *(reading)* — Sri Lanka Institute of Information Technology (SLIIT)
-- **B.Sc. in Information Systems** — University of Colombo School of Computing (UCSC), 2018
-- **Certificate in Machine Learning & Image Processing** — Academy of Innovations Education
+- **M.Sc. in Artificial Intelligence** — *in progress*
+- **B.Sc. in Information Systems** — University of Colombo School of Computing (UCSC), 2015–2018
+- **Certificate in Machine Learning & Image Processing** — Academy of Innovations Education, 2019
 
 ---
 
 ### 📜 Certifications
 
-- **ITIL® 4 Foundation** — PeopleCert
+- **ITIL® Foundation** — PeopleCert
 - **Agile Scrum** — Udemy
 - **Go (Basic)** — HackerRank
 - **Developing SQL Databases** — HackerRank
