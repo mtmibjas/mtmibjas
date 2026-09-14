@@ -92,7 +92,7 @@ Owned the product development lifecycle across Yoho Mart, Mate, Shuttle, and the
 
 ### 🎓 Education
 
-- **M.Sc. in Artificial Intelligence** — *in progress*
+- **M.Sc. in Artificial Intelligence** — Sri Lanka Institute of Information Technology (SLIIT), *in progress*
 - **B.Sc. in Information Systems** — University of Colombo School of Computing (UCSC), 2015–2018
 - **Certificate in Machine Learning & Image Processing** — Academy of Innovations Education, 2019
 
